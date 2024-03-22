@@ -1,0 +1,96 @@
+.customer-reviews {
+    width: 100%;
+    height: 435px;
+    margin: 50px 0px;
+    background:  pink;
+    padding: 10px;
+}
+
+.reviews {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;  
+    margin-top: 0px;
+}
+
+.reviews .c-review {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    flex: none;
+
+}
+
+.review {
+    width: 395px;
+    height: 235px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    font-family: "Catamaran", sans-serif;
+    font-size: 17px;
+}
+
+
+ 
+ .title-arrow {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+
+ .title-arrow p {
+    color: white;
+    font-family: "Cairo", sans-serif;
+     font-size: 35px;
+     margin-left: 20px;
+     font-weight: 600;
+ 
+ }
+ 
+ .c-arrow i{
+    color: white;
+    cursor: pointer;
+ }
+
+ 
+ 
+ .c-arrow {
+    display: flex;
+    font-size: 50px;
+    gap: 20px;
+    margin-right: 20px;
+ }
+ 
+
+
+ 
+ .reviews::-webkit-scrollbar {
+     display: none;
+ }
+
+ .review .fa-quote-right {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .name {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .comment {
+    line-height: 25px;
+ }
+
+ .stars {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+ }

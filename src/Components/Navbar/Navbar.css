@@ -1,0 +1,179 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    background: pink;
+}
+
+.left-side { 
+    display: flex;
+    gap: 20px;
+   
+}
+
+.usd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usd {
+    cursor: pointer;
+}
+.usd img {
+    width: 40px;
+    height: 40px;
+    
+}
+.minigold p {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Lobster", sans-serif;
+    margin-left: -100px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background: rgb(250, 248, 248);
+    padding: 15px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: gray;
+    font-size: 15px;
+    font-family: "Catamaran", sans-serif;
+}
+
+.search-box i {
+    cursor: pointer;
+}
+
+.nav-login-cart {
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.nav-login-cart div {
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ff4141;
+}
+
+.nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -38px;
+    margin-top: -10px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+
+.result {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    z-index: 1;
+    background: transparent;
+    width: 340px;
+    
+   
+  
+}
+
+
+
+.search-items {
+    background: ivory;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 5px;
+    border: rgb(248, 173, 186) solid 2px;
+}
+
+.result li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 2px rgb(248, 173, 186);
+    padding-bottom: 20px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: "Catamaran", sans-serif;
+    
+}
+
+.result li:hover {
+    color: rgb(63, 63, 63);
+
+}
+
+
+
+
+
+li p {
+    width: 200px;
+}
+
+li img {
+    width: 70px;
+    height: 70px;
+}
+
+.none {
+    display: none;
+}
+
+.circle {
+    background: orangered;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 65px;
+}

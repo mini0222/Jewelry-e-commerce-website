@@ -1,0 +1,46 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    
+ }
+ 
+ .best-seller {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ 
+ .best-seller p {
+     font-family: "Cairo", sans-serif;
+     font-size: 35px;
+     margin-left: 20px;
+     font-weight: 600;
+ }
+ 
+ .arrow {
+     display: flex;
+     font-size: 50px;
+     gap: 20px;
+     margin-right: 20px;
+     color: rgb(246, 155, 170);
+ }
+ 
+ .arrow i {
+     cursor: pointer;
+ }
+ 
+ .gallery { 
+     
+     display: flex;
+     overflow-x: scroll;
+     gap: 10px;  
+     margin: 10px;
+     margin-top: 0px;
+ }
+ .popular h1 {
+     color: #171717;
+     font-size: 50px;
+     font-weight: 600;
+ }
+ 

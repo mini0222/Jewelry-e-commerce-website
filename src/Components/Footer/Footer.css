@@ -1,0 +1,106 @@
+.footer {
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   background: pink;
+   font-family: "IBM Plex Serif", serif;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.email i {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+}
+
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.detail {
+    display: flex;
+    gap: 20px;
+    
+}
+
+hr {
+    width: 90%;
+    height: 0.5px;
+    background: black;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.aboutUs p,.detail p {
+    width: fit-content;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.aboutUs p:hover,.detail p:hover {
+    border-color: black;
+    color: rgb(63, 63, 63);
+}
+
+.adress {
+    border-bottom: 1px solid black;
+    width: fit-content;
+    cursor: pointer;
+    transition: color 0.3s;
+
+}
+
+.adress:hover,.social-media i:hover {
+    color: rgb(63, 63, 63);
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+}
+
+.social-media i {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
