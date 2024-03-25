@@ -62,7 +62,7 @@ const Navbar = () => {
          </div>
         </div>
         <div className="minigold">
-            <Link to='/'style={{textDecoration:'none',color:'black'}}><p onClick={()=>{setMenu("shop")}}>Mini Gold</p></Link>
+            <Link to='/Jewelry-e-commerce-website/'style={{textDecoration:'none',color:'black'}}><p onClick={()=>{setMenu("shop")}}>Mini Gold</p></Link>
         </div>
         <div className="nav-login-cart">
             <div><i class="fa-regular fa-circle-question"></i></div>
@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
         <div className="nav-category">
             <ul className="nav-menu">
-                <li onClick={()=>{setMenu("shop")}}><Link to='/' style={{textDecoration:'none',color:'black'}}>SHOP</Link>{menu==="shop"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("shop")}}><Link to='/Jewelry-e-commerce-website/' style={{textDecoration:'none',color:'black'}}>SHOP</Link>{menu==="shop"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("bestsellers")}}><Link to='/bestsellers' style={{textDecoration:'none',color:'black'}}>BEST SELLERS</Link>{menu==="bestsellers"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("newarrivals")}}><Link to='/newarrivals' style={{textDecoration:'none',color:'black'}}>NEW ARRIVALS</Link>{menu==="newarrivals"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("earrings")}}><Link to='/earrings' style={{textDecoration:'none',color:'black'}}>EARRINGS</Link>{menu==="earrings"?<hr/>:<></>}</li>

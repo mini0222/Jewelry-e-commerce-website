@@ -19,7 +19,7 @@ const WishList = () => {
        {wishListItems.length === 0? (
         <div className='empty-wishlist'>
          <div className='heart-icon'><i class="fa-solid fa-heart"></i></div>
-         <p><Link to={`/login`} style={{textDecoration:'black'}}><span>Create your account or sign in</span> </Link>to save favorite!</p>
+         <p><Link to={`/login`} style={{textDecoration:'black', color:'black'}}><span>Create your account or sign in</span> </Link>to save favorite!</p>
         <p>Your wish list is empty</p>
         </div>
        ) : (

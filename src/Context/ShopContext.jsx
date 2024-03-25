@@ -19,11 +19,6 @@ const ShopContextProvider = (props) => {
     const [whatIsInCart,setWhatIsInCart] = useState(JSON.parse(localStorage.getItem('whatIsInCart'))||[]);
     
 
-    console.log(wishListItems)
-    console.log(cartItems)
-
-    console.log(whatIsInCart)
-    
 
     useEffect(()=> {
         localStorage.setItem('wishListItems',JSON.stringify(wishListItems))
@@ -106,7 +101,7 @@ const handleSizeSelect = (item, size) => {
 
     const getTotalCartAmount = () => {
 
-        return whatIsInCart.reduce((total, item)=> total+ (item.new_price * item.quantity), 0)
+        return whatIsInCart.reduce((total, item)=> total+ (item.new_price * item.quantity), 0).toFixed(1)
         /*let totalAmount = 0;
         for(const item in cartItems) {
             if(cartItems[item]>0) {
