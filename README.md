@@ -6,7 +6,6 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#Features)
 
 ## Installation
@@ -25,7 +24,7 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
    npm start
    ```
 
-## Usage
+## Features
 
 - Users will see an exclusive offer pop-up each time they refresh the website or click on the shop link.
 
@@ -59,7 +58,7 @@ https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/19f2ddf1
 ![Alt text](9.png)
 
   
-## Features
+
 
 
 
