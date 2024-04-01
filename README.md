@@ -8,7 +8,6 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#Features)
-- [Contributing](#contributing)
 
 ## Installation
 1. Clone the repository:
