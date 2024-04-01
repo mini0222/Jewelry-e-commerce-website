@@ -5,10 +5,10 @@ Jewerly e-commerce website named "Mini Gold"
 Mini Gold is a Jewerly e-commerce website where you can order all the dainty and modern Jewerlys including earrings, necklace, bracelet online.
 
 ## Table of Contents
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [Features] (#Features)
-- [Contributing] (#contributing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#Features)
+- [Contributing](#contributing)
 
 ## Installation
 1. Clone the repository:
