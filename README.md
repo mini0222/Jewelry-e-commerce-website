@@ -30,13 +30,17 @@ Mini Gold is a Jewerly e-commerce website where you can order all the dainty and
 
 - Users will see an exclusive offer pop-up each time they refresh the website or click on the shop link.
 
-
+![Alt text](1.png)
 
 - Users can browse items by clicking on the categories listed in the navigation bar.
 
 - Users can find specific items by typing their name or keywords into the search bar located on the left side of the navigation bar.
+
+![Alt text](3.png)
   
 - Users will automatically see each banner change every 3 seconds, or they can manually switch banners by clicking on the dots at the bottom of the banner.
+
+![Alt text](4.mov)
 
 - Users can slide right and left to see some of new arrivals and bestsellers by scrolling or by clicking the left/right arrow button on the top right of the section.
 
@@ -45,6 +49,9 @@ Mini Gold is a Jewerly e-commerce website where you can order all the dainty and
 - Users can select a jewelry size and add it to their cart.
 
 - Users have the option to sign up or sign in.
+
+![Alt text](8.png)
+![Alt text](9.png)
 
   
 ## Features
