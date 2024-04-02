@@ -16,7 +16,6 @@ const Popular = () => {
   const nextBtn = () => {
     myRef.current.style.scrollBehavior = "smooth";
     myRef.current.scrollLeft += 1500;
-
   }
 
   const backBtn = () => {

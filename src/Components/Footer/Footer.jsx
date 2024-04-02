@@ -36,7 +36,6 @@ const Footer = () => {
                         <i class="fa-brands fa-youtube"></i>
                         <i class="fa-brands fa-tiktok"></i>
                     </div>
-
                 </div>
 
             </div>

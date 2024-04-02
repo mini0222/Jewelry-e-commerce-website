@@ -4,8 +4,6 @@ import heroBanner from '../Assets/hero_banner.jpg'
 import heroBanner2 from '../Assets/hero_banner2.jpg'
 import heroBanner3 from '../Assets/hero_banner3.jpg'
 
-
-
 const Hero = ({ heroCount }) => {
 
   if (heroCount === 0) {
@@ -20,16 +18,13 @@ const Hero = ({ heroCount }) => {
       <div className='hero'>
         <img src={heroBanner2} alt="" className='banner' />
       </div>
-
     )
   }
   else if (heroCount === 2) {
     return (
       <div className='hero'>
         <img src={heroBanner3} alt="" className='banner' />
-
       </div>
-
     )
   }
 

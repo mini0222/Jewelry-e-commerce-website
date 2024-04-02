@@ -25,10 +25,6 @@ const ProductDisplay = (props) => {
     setTimeout(() => {
       setShowPopup(false)
     }, 3000)
-
-
-
-
   }
 
 
@@ -41,8 +37,6 @@ const ProductDisplay = (props) => {
           <p>Add to Wishlist!</p>
           <div className='like' onClick={handleLikeToggle}><i class="fa-solid fa-heart"></i></div>
           {showPopup && <div className='popup'>You added this item to your wishlist! check it out.</div>}
-
-
         </div>
 
         <img src={product.image} alt="" />

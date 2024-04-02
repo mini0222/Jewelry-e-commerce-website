@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom';
 const CartItems = () => {
   const { whatIsInCart, setMenu, getTotalCartAmount, removeFromCart } = useContext(ShopContext);
   
-
-
-
   return (
     <div className='cartitems'>
       {whatIsInCart.length === 0 ? <></> : (

@@ -9,11 +9,8 @@ const Navbar = () => {
   const { menu, setMenu, getTotalCartItems, wishListItems } = useContext(ShopContext)
   const [query, setQuery] = useState('');
 
-  console.log(menu)
-
   const handleInputChange = (event) => {
     setQuery(event.target.value);
-
   }
 
   const filteredData = all_product.filter(item => {
@@ -43,12 +40,7 @@ const Navbar = () => {
     }
   }, [isVisible]);
 
-
-
-
   return (
-
-
     <div className='navbar'>
       <div className='nav'>
         <div className="navbar-main">
@@ -91,8 +83,6 @@ const Navbar = () => {
           {filteredData.map((item, i) => { return (<li key={i}> <Link to={`/product/${item.id}`} style={{ textDecoration: 'none', color: 'black' }}><p>{item.name}</p></Link> <img src={item.image} alt="" /></li>) })}
         </ul>
       </div>
-
-
       )}
 
     </div>

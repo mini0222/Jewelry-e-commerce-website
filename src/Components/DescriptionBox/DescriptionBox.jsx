@@ -16,10 +16,7 @@ const DescriptionBox = () => {
 
           <li>High-polish, 14K gold finish</li>
         </ul>
-
-
       </div>
-
     </div>
   )
 }

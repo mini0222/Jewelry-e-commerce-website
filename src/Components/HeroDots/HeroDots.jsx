@@ -14,7 +14,6 @@ const HeroDots = ({ heroData, setHeroCount, heroCount }) => {
       <Link to='/bestsellers'><button onClick={() => setMenu("bestsellers")}>SHOP NOW</button></Link>
 
       <ul className='hero-dots'>
-
         <li onClick={() => setHeroCount(0)} className={heroCount === 0 ? "hero-dot orange" : "hero-dot"}></li>
         <li onClick={() => setHeroCount(1)} className={heroCount === 1 ? "hero-dot orange" : "hero-dot"}></li>
         <li onClick={() => setHeroCount(2)} className={heroCount === 2 ? "hero-dot orange" : "hero-dot"}></li>

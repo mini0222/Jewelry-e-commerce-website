@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 const WishList = () => {
   const { wishListItems, removeFromWishList } = useContext(ShopContext);
 
-
   return (
     <div>
       <h1 className='yourwishlist'>Your WishList</h1>
@@ -35,16 +34,11 @@ const WishList = () => {
                   </div>
                 </div>
               </li>
-
-
             )
           }
           )}
         </ul>
-
       )}
-
-
     </div>
   )
 }

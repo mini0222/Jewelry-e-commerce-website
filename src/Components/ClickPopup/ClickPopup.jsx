@@ -15,7 +15,6 @@ const ClickPopup = () => {
         <div>
             <div onClick={togglePopup} className='exclusiveOffer'>
                 <p>EXCLUSIVE OFFER</p>
-
             </div>
 
             {isOpen && <PopUp onClose={togglePopup} />}

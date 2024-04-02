@@ -33,8 +33,6 @@ const ShopContextProvider = (props) => {
     const differentSize = (item) => {
         const existingItemIndex = whatIsInCart.findIndex((whatIsInCart) => whatIsInCart.id === item.id && whatIsInCart.size === item.size);
 
-
-
         if (existingItemIndex !== -1) {
             const updatedCartItems = [...whatIsInCart];
 
@@ -55,7 +53,6 @@ const ShopContextProvider = (props) => {
         differentSize({ ...item, size: size })
     }
 
-    console.log(whatIsInCart)
 
     const addToCart = (itemId) => {
 

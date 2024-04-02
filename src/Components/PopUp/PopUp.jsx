@@ -14,8 +14,6 @@ const PopUp = ({ onClose }) => {
 
   }
 
-
-
   function formatPhoneNumber(phoneNumber) {
     return phoneNumber.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
 
@@ -27,11 +25,7 @@ const PopUp = ({ onClose }) => {
       <div className='modal-left'>
         <p className='minigold-logo'>Mini Gold</p>
         <img src={popupimage} alt="" />
-
-
       </div>
-
-
 
       <div className='modal-right'>
         <h2>WE'D LOVE YOUR NUMBER.</h2>
