@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+## Project Title
+Jewerly e-commerce website named "Mini Gold"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Mini Gold is a jewelry e-commerce website where you can order all the dainty and modern jewelry, including earrings, necklaces, and bracelets, online.
 
-## Available Scripts
+## Table of Contents
+- [Installation](#installation)
+- [Features](#Features)
 
-In the project directory, you can run:
+## Installation
+1. Clone the repository:
+   ```
+   https://mini0222.github.io/Jewelry-e-commerce-website/
+   ```
+   
+2. Install dependencies:
+   ```
+   npm install
+   ```
+   
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users will see an exclusive offer pop-up each time they refresh the website or click on the shop link.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](1.png)
 
-### `npm test`
+- Users can browse items by clicking on the categories listed in the navigation bar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Users can find specific items by typing their name or keywords into the search bar located on the left side of the navigation bar.
 
-### `npm run build`
+![Alt text](3.png)
+  
+- Users will automatically see each banner change every 3 seconds, or they can manually switch banners by clicking on the dots at the bottom of the banner.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/5a2f0785-2180-465a-b089-a95296b4df4b
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Users can slide right and left to see some of new arrivals and bestsellers by scrolling or by clicking the left/right arrow button on the top right of the section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/2944760d-360d-41b6-ba35-819e72593669
 
-### `npm run eject`
+- Users can add favorite items to their wishlist by clicking the heart icon above the product picture.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/68b84687-0ff9-47f1-8d6a-8d0879041743
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Users can select a jewelry size and add it to their cart.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/19f2ddf1-f3ec-4b43-9cb5-a6d47dfcf9d3
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Users have the option to sign up or sign in.
 
-## Learn More
+![Alt text](8.png)
+![Alt text](9.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
