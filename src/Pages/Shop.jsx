@@ -10,33 +10,31 @@ import ClickPopup from '../Components/ClickPopup/ClickPopup';
 
 const Shop = () => {
 
- 
-
   let heroData = [
-    {text1:"SHOP 80% OFF SITEWIDE",text2:"No promo code needed"},
-    {text1:"Explore our new Arrivals",text2:"Find your next favorite piece"},
-    {text1:"Free Shipping Worldwide",text2:"No minimum purchase required"},
+    { text1: "SHOP 80% OFF SITEWIDE", text2: "No promo code needed" },
+    { text1: "Explore our new Arrivals", text2: "Find your next favorite piece" },
+    { text1: "Free Shipping Worldwide", text2: "No minimum purchase required" },
 
   ]
 
-  const [heroCount,setHeroCount] = useState(0);
+  const [heroCount, setHeroCount] = useState(0);
 
-  useEffect(()=>{
-    setInterval(()=>{
-      setHeroCount((count)=>{return count===2?0:count+1})
+  useEffect(() => {
+    setInterval(() => {
+      setHeroCount((count) => { return count === 2 ? 0 : count + 1 })
     }, 3000);
-  },[])
+  }, [])
 
-  
+
   return (
     <div>
-      <ClickPopup/>
-      <Hero heroCount={heroCount}/>
-      <HeroDots setHeroCount={setHeroCount} heroCount={heroCount} heroData={heroData[heroCount]}/>
-      <Popular/>
-      <Video/>
-      <Reviews/>
-      <NewArrivals/>
+      <ClickPopup />
+      <Hero heroCount={heroCount} />
+      <HeroDots setHeroCount={setHeroCount} heroCount={heroCount} heroData={heroData[heroCount]} />
+      <Popular />
+      <Video />
+      <Reviews />
+      <NewArrivals />
     </div>
   )
 }

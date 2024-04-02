@@ -3,25 +3,25 @@ import PopUp from '../PopUp/PopUp';
 import './ClickPopup.css'
 
 const ClickPopup = () => {
-    const [isOpen,setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
-    useEffect(()=> {
+    useEffect(() => {
         setIsOpen(true);
-    },[])
+    }, [])
     const togglePopup = () => {
         setIsOpen(!isOpen)
     }
-  return (
-    <div>
-        <div onClick={togglePopup} className='exclusiveOffer'>
-            <p>EXCLUSIVE OFFER</p>
-           
-        </div>
+    return (
+        <div>
+            <div onClick={togglePopup} className='exclusiveOffer'>
+                <p>EXCLUSIVE OFFER</p>
 
-        {isOpen && <PopUp onClose={togglePopup}/>}
-      
-    </div>
-  )
+            </div>
+
+            {isOpen && <PopUp onClose={togglePopup} />}
+
+        </div>
+    )
 }
 
 export default ClickPopup

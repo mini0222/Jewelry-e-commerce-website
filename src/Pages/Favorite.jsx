@@ -4,13 +4,13 @@ import { useParams } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
 
 const Favorite = () => {
-  const {all_product} = useContext(ShopContext);
-  const {productId} = useParams();
-  const product = all_product.find((e)=> e.id === Number(productId))
+  const { all_product } = useContext(ShopContext);
+  const { productId } = useParams();
+  const product = all_product.find((e) => e.id === Number(productId))
   console.log(productId)
   return (
     <div>
-      <WishList product={product}/>
+      <WishList product={product} />
     </div>
   )
 }

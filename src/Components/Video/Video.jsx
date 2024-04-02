@@ -5,12 +5,12 @@ import pause_icon from '../Assets/pause_icon.png'
 
 
 const Video = () => {
-    const [playStatus,setPlayStatus] = useState(true);
-    const videoRef=useRef(null);
+    const [playStatus, setPlayStatus] = useState(true);
+    const videoRef = useRef(null);
 
     const togglePlayback = () => {
-        if(videoRef.current) {
-            if(playStatus) {
+        if (videoRef.current) {
+            if (playStatus) {
                 videoRef.current.pause();
             } else {
                 videoRef.current.play();
@@ -20,25 +20,25 @@ const Video = () => {
     }
     return (
         <div className='video'>
-        <div className='ad'>
+            <div className='ad'>
 
-        <video className='background' autoPlay loop muted ref={videoRef} paused={!playStatus}> 
-            <source src={require('../Assets/video1.mp4')}type="video/mp4"/>
-        </video>
+                <video className='background' autoPlay loop muted ref={videoRef} paused={!playStatus}>
+                    <source src={require('../Assets/video1.mp4')} type="video/mp4" />
+                </video>
 
-        <div className='text'> 
-        <p>No Tarnishing</p>
-        <p>2years Warranty</p>
-        <p>Water-Resistance</p>
-        <p>Hypoallergenic</p>
+                <div className='text'>
+                    <p>No Tarnishing</p>
+                    <p>2years Warranty</p>
+                    <p>Water-Resistance</p>
+                    <p>Hypoallergenic</p>
+                </div>
+            </div>
+            <div className="play">
+                <img onClick={togglePlayback} src={playStatus ? pause_icon : play_icon} alt="" />
+            </div>
         </div>
-        </div>
-        <div className="play">
-            <img onClick={togglePlayback} src={playStatus?pause_icon:play_icon} alt="" />
-        </div>
-        </div>
-         )
-        }
+    )
+}
 
 
 export default Video
