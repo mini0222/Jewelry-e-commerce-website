@@ -8,13 +8,7 @@ const ShopSpecial = (props) => {
   const { all_product } = useContext(ShopContext)
   const [sortBy, setSortBy] = useState("low-high");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
-
-  console.log(isDropdownOpen)
-
-
   const dropdownRef = useRef(null);
-
-
 
   useEffect(() => {
     const handleClickOutside = (event) => {

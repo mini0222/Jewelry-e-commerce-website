@@ -27,7 +27,6 @@ const Hero = ({ heroCount }) => {
       </div>
     )
   }
-
-
 }
+
 export default Hero

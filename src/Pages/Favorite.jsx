@@ -8,6 +8,7 @@ const Favorite = () => {
   const { productId } = useParams();
   const product = all_product.find((e) => e.id === Number(productId))
   console.log(productId)
+  
   return (
     <div>
       <WishList product={product} />

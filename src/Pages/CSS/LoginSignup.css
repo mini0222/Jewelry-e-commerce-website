@@ -26,7 +26,6 @@
     color: pink;
     font-size: 48px;
     font-weight: 700;
-
 }
 
 .underline {
@@ -44,9 +43,7 @@
     gap: 40px;
     margin-top: 55px;
     margin-bottom: 15px;
-
 }
-
 
 .input {
     display: flex;
@@ -57,7 +54,6 @@
     border-radius: 10px;
     width: 400px;
     position: relative;
-   
 }
 
 .input i {
@@ -80,7 +76,6 @@
     font-size: 18px;
     color: #797979;
     margin-top: 20px;
-
 }
 
 .forgot-password span {
@@ -135,9 +130,9 @@
     top: 90px;
 
 }
+
 .none {
     display: none;
-
 }
 
 .block {
@@ -152,7 +147,6 @@
     font-weight: 600;
     font-size: 20px;
     margin-top: 15px;
-
 }
 
 .errormsg {
@@ -165,4 +159,64 @@
     color: green;
     position: absolute;
     right: 20px;
+}
+
+
+@media(max-width: 1280px) {
+
+    .submit-container {
+        margin-left: 348px;
+    }
+
+}
+
+@media(max-width: 1024px) {
+
+    .submit-container {
+        margin-left: 220px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .submit-container {
+        margin-left: 110px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .loginsignup {
+        margin-top: 70px;
+        width: 300px;
+        margin-bottom: 70px;
+        margin-left: 10px;
+    }
+
+    .submit-container {
+        margin-left: 10px;
+    }
+    
+    .input {
+        width: 330px;
+    }
+
+    .loginsignup-container {
+        margin-top: 50px;
+        width: 470px; 
+    }
+
+
+    .header h1{ 
+        font-size: 40px;
+    }
+
+    .forgot-password {
+        margin-top: 45px;
+        margin-left: -70px;
+    }
+
+    .nameError, .emailError, .passwordError, .errormsg {
+        font-size: 14px;
+    }
 }

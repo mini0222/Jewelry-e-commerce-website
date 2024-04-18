@@ -24,7 +24,7 @@ const Footer = () => {
                     <p>Careers</p>
                 </div>
 
-                <div className='contact Us'>
+                <div className='contactUs'>
                     <p className='title'>Contact Us</p>
                     <p>123.456.7890</p>
                     <p className='adress'>minigold@gmail.com</p>

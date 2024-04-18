@@ -5,7 +5,6 @@ const Reviews = () => {
   const myRef = useRef(null);
 
   const handleWheel = (evt) => {
-    evt.preventDefault();
     myRef.current.scrollLeft += evt.deltaY;
   }
 
@@ -18,8 +17,6 @@ const Reviews = () => {
     myRef.current.style.scrollBehavior = "smooth";
     myRef.current.scrollLeft -= 1500;
   }
-
-
 
   return (
     <div className='customer-reviews'>

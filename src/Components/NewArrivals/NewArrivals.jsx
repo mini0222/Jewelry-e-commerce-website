@@ -9,7 +9,6 @@ const NewArrivals = () => {
   const myRef = useRef(null);
 
   const handleWheel = (evt) => {
-    evt.preventDefault();
     myRef.current.scrollLeft += evt.deltaY;
   }
 

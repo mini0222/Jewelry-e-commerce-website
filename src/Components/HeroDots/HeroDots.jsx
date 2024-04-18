@@ -5,6 +5,7 @@ import { ShopContext } from '../../Context/ShopContext'
 
 const HeroDots = ({ heroData, setHeroCount, heroCount }) => {
   const { setMenu } = useContext(ShopContext)
+  
   return (
     <div className='heroDots'>
       <div className='hero-text'>

@@ -1,6 +1,5 @@
 .cartitems {
     margin: 50px 170px;
-
 }
 
 .cartitems hr {
@@ -24,7 +23,6 @@
 .cartitems-format {
     font-size: 17px;
     font-weight: 500;
-
 }
 
 .carticon-product-icon {
@@ -91,12 +89,10 @@
     flex:1;
     font-size: 16px;
     font-weight: 500;
-
 }
 
 .cartitems-promocode p {
     color: #555;
-
 }
 
 .cartitems-promobox {
@@ -107,7 +103,6 @@
     background: #eaeaea;
     display: flex;
     align-items: center;
-
 }
 
 
@@ -130,7 +125,6 @@
     border: none;
     outline: none;
 }
-
 
 .empty-cart {
     display: flex;
@@ -171,7 +165,6 @@
 .tothelink button:hover {
     background: ivory;
     color: pink;
-
 }
 
 .cartItemName {
@@ -181,3 +174,138 @@
 .cartItemName:hover {
     text-decoration: underline;
 }
+
+.cartitems-promocode-mobile,.cartitems-total-mobile {
+    display: none;
+}
+
+
+@media (max-width: 1280px) {
+    .empty-cart  {
+        margin-top: 70px;
+    }
+    .empty-cart i {
+        font-size: 180px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .cartitems {
+        margin: 50px 110px;
+    }
+
+    .cartitems-promobox {
+        width: 400px;
+    }
+
+    .cartitems-format{
+        gap: 65px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .cartitems-format img {
+        width: 100px;
+        height: 120px;
+    }
+
+    .cartitems-format-main:first-child {
+        display: none;
+    }
+
+    .cart-title hr {
+        display: none;
+    }
+
+    .cartitems {
+        margin: 50px 20px;
+    }
+
+    .cartitems-format-main {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 55px;
+        padding: 20px 0px;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .cartitems-down {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .cartitems-promocode-mobile,.cartitems-total-mobile {
+        display: block;
+    }
+
+    .cartitems-promocode,.cartitems-total{
+        display: none;
+    }
+
+    .cartitems-total-mobile button {
+        width: 262px;
+        height: 58px;
+        outline: none;
+        border: none;
+        background: pink;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .cartitems-format > :nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .cartitems-format {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 0px;
+        color: #454545;
+        font-size: 15px;
+    }
+
+    .empty-cart {
+        margin-bottom: 70px;
+    }
+
+    .empty-cart p {
+        text-align: center;
+        width: 200px;
+    }
+
+    .tothelink button {
+        width: 150px;
+    }
+
+    .cartitems-format > :first-child{
+        grid-row: span 2;
+    }
+
+    .cartitems-format img {
+        width: 145px;
+        height: 190px;
+    }
+
+    .cartitems-remove-icon {
+        grid-column: 4;
+        margin-left: 20px;
+    }
+
+    .cartitems-total-mobile button {
+        margin-top: 50px;
+    }
+}
+

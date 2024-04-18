@@ -44,3 +44,54 @@
      font-weight: 600;
  }
  
+ @media (max-width: 1280px) {
+
+    .new-arrivals .best-seller p {
+        font-size: 40px;
+    }
+    
+    .arrow i{
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+   .new-arrivals .best-seller p {
+       font-size: 35px;
+   }
+
+   .arrow i{
+       font-size: 42px;
+   }
+}
+
+
+@media (max-width: 800px) {
+
+   .new-arrivals .best-seller p {
+       font-size: 30px;
+   }
+
+   .arrow i{
+       font-size: 37px;
+   }
+}
+
+
+@media (max-width: 500px) {
+
+   .new-arrivals .best-seller p {
+       font-size: 25px;
+   }
+
+   .arrow i{
+       display: none;
+   }
+   
+   .gallery { 
+       width: 1000px;
+   }
+}
+

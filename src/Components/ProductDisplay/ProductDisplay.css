@@ -5,8 +5,6 @@
 .productdisplay-left img{
     width: 586px;
     height: 700px; 
-   
-
 }
 
 .productdisplay-img {
@@ -47,7 +45,6 @@
     display: flex;
     gap: 20px;
     font-size: 20px;
-   
 }
 
 .sizebackground {
@@ -56,7 +53,6 @@
     border: pink solid 3px;
     cursor: pointer;
     transition: background 0.1s;
-   
 }
 
 .sizebackground:hover {
@@ -109,16 +105,11 @@
 .productdisplay button:hover {
     background: ivory;
     color: black;
-
 }
 
 .productdisplay p span {
     font-weight: 600;
 }
-
-
-
-
 
 .addtowishlist {
     display: flex;
@@ -126,7 +117,6 @@
     gap: 7px;
     margin-top: -20px;
     margin-bottom: 20px;
-
 }
 
 .like {
@@ -142,10 +132,9 @@
 
 .popup {
     position: absolute;
-    top: 20px;
     background: ivory;
     padding: 20px;
-    top: 300px;
+    top: 307px;
     left: 190px;
     border: 2px solid pink;
     animation: bounceIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
@@ -166,4 +155,91 @@
         opacity: 1;
     }
     
+}
+
+
+@media (max-width: 1024px) {
+
+    .productdisplay-left img{
+        width: 510px;
+        height: 650px; 
+    }
+
+    .productdisplay {
+        gap: 70px;
+    } 
+
+    .productdisplay-right h1 {
+        font-size: 28px;
+    }
+
+    .sizes {
+        display: flex;
+        gap: 15px;
+        font-size: 15px;
+        width: 85%;
+        overflow-x: auto;
+       
+    }
+
+    .sizes::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .productdisplay-right-description {
+        width: 88%;
+    }
+
+    .productdisplay-right-description br {
+        display: none;
+    }
+} 
+
+@media (max-width: 1280px) {
+
+    .popup {
+        top: 260px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .popup {
+        top: 242px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .popup {
+        top: 160px;
+    }
+
+    .productdisplay {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .productdisplay-left img{
+        width: 650px;
+        height: 650px; 
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .popup {
+        font-size: 12px;
+    }
+
+    .productdisplay {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .productdisplay-left img{
+        width: 450px;
+        height: 550px; 
+    }
 }

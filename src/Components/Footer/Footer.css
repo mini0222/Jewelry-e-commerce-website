@@ -42,12 +42,13 @@ input {
 .detail {
     display: flex;
     gap: 20px;
-    
 }
 
 hr {
     width: 90%;
-    height: 0.5px;
+    height: 1px;
+    outline: none;
+    border: none;
     background: black;
 }
 
@@ -86,7 +87,7 @@ hr {
     flex-direction: column;
 }
 
-.detail-list{
+.detail-list {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -104,3 +105,99 @@ hr {
     transition: color 0.3s;
 }
 
+@media (max-width: 1024px) {
+    .upper {
+        padding: 30px 40px;
+    }
+
+    .detail {
+        gap: 10px;   
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    .down {
+        padding: 0 27px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .upper {
+        padding: 30px 20px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 40px;
+    }
+
+    .detail {
+        gap: 10px;   
+        margin-right: -80px;
+        width: min-content;
+    }
+
+    .email {
+        width: 270px;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    .down {
+        padding-right: 110px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .upper {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .Newsletter{
+        background: ivory;
+        padding-bottom: 20px;
+    }
+
+    .contactUs {
+        padding-bottom: 20px;
+    }
+
+    .Newsletter, .aboutUs {
+        border-bottom: solid 1px rgb(138, 138, 138)
+    }
+
+   .Newsletter, .aboutUs, .contactUs{
+       padding-left: 20px;
+       padding-top: 10px;
+    }
+
+   .email {
+       background: white;
+       width: 80%;
+    }
+ 
+    hr {
+        width: 100%;
+        background: rgb(138, 138, 138);
+    }
+
+    .down p{
+      font-size: 12px;
+    }
+    
+    .down {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .detail {
+        width: max-content;
+    }
+}

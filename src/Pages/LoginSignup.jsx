@@ -89,10 +89,6 @@ const LoginSignup = () => {
     return hasUppercase && hasLowercase && hasNumbers && hasSpecialChars && isLongEnough;
   }
 
-
-
-
-
   function validateForm() {
 
     if (!isNameValid || !isEmailVaild || !isValid) {
@@ -102,8 +98,6 @@ const LoginSignup = () => {
     }
 
   }
-
-
 
   return (
     <div className='loginsignup'>

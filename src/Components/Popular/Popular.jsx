@@ -9,7 +9,6 @@ const Popular = () => {
   const myRef = useRef(null);
 
   const handleWheel = (evt) => {
-    evt.preventDefault();
     myRef.current.scrollLeft += evt.deltaY;
   }
 

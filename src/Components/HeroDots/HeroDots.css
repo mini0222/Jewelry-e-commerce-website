@@ -6,7 +6,6 @@
     top: 420px;
     left: 400px;
     text-align: center;
-
 }
 
 .big-text {
@@ -35,7 +34,6 @@
     font-size: 25px;
     font-weight: 600;
     cursor: pointer;
-    
 }
 
 .heroDots button:hover {
@@ -49,8 +47,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .hero-dot {
@@ -59,9 +56,88 @@
     background: white;
     border-radius: 7.5px;
     cursor: pointer;
-
 }
 
 .orange {
     background: pink
 }
+
+@media (max-width:1280px) {
+
+    .hero-text {
+        top: 370px;
+        left: 320px;
+    }
+
+    .heroDots button {
+        top: 700px;
+        left: 570px;   
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .hero-text {
+        top: 310px;
+        left: 210px;
+    }
+
+    .heroDots button {
+        top: 600px;
+        left: 440px;   
+    }
+
+}
+
+@media (max-width:800px) {
+    
+    .big-text {
+        font-size: 55px;
+    }
+    
+    .small-text {
+        font-size: 30px;
+    }
+
+    .hero-text {
+        top: 170px;
+        left: 90px;
+    }
+    .heroDots button {
+        top: 450px;
+        left: 320px;   
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .big-text {
+        font-size: 30px;
+    }
+    
+    .small-text {
+        font-size: 25px;
+    }
+
+    .hero-text {
+        top: 185px;
+        left: 90px;
+    }
+    .heroDots button {
+        top: 360px;
+        left: 200px;   
+        font-size: 15px;
+    }
+
+    .hero-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+}
+
+
+
+

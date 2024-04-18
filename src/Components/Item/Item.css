@@ -1,18 +1,15 @@
 .item {
     width: 330px;
     position: relative;
-
 }
 
 .item img {
     width: 320px;
     height: 400px;
-
 }
 
 .item p {
     margin: 6px 0px;
-
 }
 
 .item-prices {
@@ -39,7 +36,6 @@
 }
 
 
-
 .item p {
     max-width: 290px;
 }
@@ -47,5 +43,80 @@
 
 .heart {
     position: absolute;
-   margin-top: -1px;
+    margin-top: -1px;
+}
+
+@media (max-width:1280px) {
+
+    .item {
+        width: 300px;
+    }
+    
+    .item img {
+        width: 300px;
+        height: 390px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .item {
+        width: 238px;
+    }
+    
+    .item img {
+        width: 238px;
+        height: 330px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .item {
+        width: 183px;
+    }
+    
+    .item img {
+        width: 190px;
+        height: 290px;
+    }
+
+    .item p {
+        font-size: 14px;
+        max-width: 160px;
+    }
+    
+
+    .item-price-new {
+        font-size: 15px;
+    }
+    
+    .item-price-old {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .item {
+        width: 230px;
+    }
+    
+    .item img {
+        width: 230px;
+        height: 250px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .item-price-new {
+        font-size: 15px;
+    }
+    
+    .item-price-old {
+        font-size: 15px;
+    }
+
 }

@@ -3,6 +3,7 @@ import './Item2.css'
 import { Link } from 'react-router-dom'
 
 const Item2 = (props) => {
+  
   return (
     <div className='item'>
       <div className="item">

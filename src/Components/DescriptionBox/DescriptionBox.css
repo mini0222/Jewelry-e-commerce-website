@@ -1,5 +1,4 @@
 .descriptionbox {
-   
     margin: 100px 32px;
     font-family: "Noto Sans", sans-serif;
 }
@@ -20,13 +19,11 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background: pink;
-
 }
 
 .descriptionbox-nav-box.fade {
     background: #FBFBFB;
     color: #555;
-
 }
 
 .descriptionbox-description {
@@ -36,5 +33,4 @@
     border: 1px solid #D0D0D0;
     padding: 48px;
     background: ivory;
-
 }

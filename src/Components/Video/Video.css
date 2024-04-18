@@ -18,7 +18,6 @@
 source {
     width: 100%;
     height: 100%;
-    
 }
 
 .text {
@@ -34,3 +33,61 @@ source {
     left: 700px;
 
 }
+
+@media (max-width:1024px) {
+
+    .background {
+        width: 700px;
+        height: 100%;
+    }
+
+    .text {
+        font-size: 37px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .background {
+        width: 600px;
+        height: 100%;
+    }
+
+    .text {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .ad {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    .background {
+        width: 500px;
+        height: 100%;
+    }
+
+    .text {
+        font-size: 27px;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    .play {
+        position: absolute;
+        bottom: 210px;
+        left: 435px;
+    }
+
+    .play img {
+        width: 55px
+    }
+}
+

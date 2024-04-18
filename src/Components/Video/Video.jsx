@@ -18,6 +18,7 @@ const Video = () => {
             setPlayStatus(!playStatus)
         }
     }
+    
     return (
         <div className='video'>
             <div className='ad'>

@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const CartItems = () => {
   const { whatIsInCart, setMenu, getTotalCartAmount, removeFromCart } = useContext(ShopContext);
-  
+
   return (
     <div className='cartitems'>
       {whatIsInCart.length === 0 ? <></> : (
-        <>
+        <div className='cart-title'>
           <div className='cartitems-format-main'>
             <p>Products</p>
             <p>Title</p>
@@ -21,7 +21,7 @@ const CartItems = () => {
           </div>
           <hr />
 
-        </>
+        </div>
       )
 
       }
@@ -47,7 +47,7 @@ const CartItems = () => {
               <p>${item.new_price}</p>
               <button className='cartitmes-quantitiy'>{item.quantity}</button>
               <p>${item.new_price * item.quantity}</p>
-              <div className='cartitems-remove-icon' onClick={() => { removeFromCart(item) }}><i class="fa-solid fa-xmark"></i></div>
+              <div className='cartitems-remove-icon' onClick={() => { removeFromCart(item) }}><i class="fa-solid fa-trash-can"></i></div>
             </div>
 
             <hr />
@@ -60,8 +60,38 @@ const CartItems = () => {
       {whatIsInCart.length === 0 ? <></> :
 
         <div className='cartitems-down'>
+          <div className='cartitems-promocode-mobile'>
+            <h1>Promo Code</h1>
+            <p>If you have a promo code, Enter it here</p>
+            <div className='cartitems-promobox'>
+              <input type="text" placeholder='promo code' />
+              <button>Submit</button>
+            </div>
+          </div>
+          <div className='cartitems-total-mobile'>
+            <h1>Cart Totals</h1>
+            <div>
+              <div className='cartitems-total-item'>
+                <p>Subtotal</p>
+                <p>${getTotalCartAmount()}</p>
+              </div>
+              <hr />
+              <div className='cartitems-total-item'>
+                <p>Shipping Fee</p>
+                <p>Free</p>
+              </div>
+              <hr />
+              <div className="cartitems-total-item">
+                <h3>Total</h3>
+                <h3>${getTotalCartAmount()}</h3>
+              </div>
+            </div>
+            <button>PROCEED TO CHECKOUT</button>
+          </div>
+
+
           <div className='cartitems-total'>
-            <h1>cart Totals</h1>
+            <h1>Cart Totals</h1>
             <div>
               <div className='cartitems-total-item'>
                 <p>Subtotal</p>

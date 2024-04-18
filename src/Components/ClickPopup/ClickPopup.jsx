@@ -11,6 +11,7 @@ const ClickPopup = () => {
     const togglePopup = () => {
         setIsOpen(!isOpen)
     }
+    
     return (
         <div>
             <div onClick={togglePopup} className='exclusiveOffer'>
