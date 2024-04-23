@@ -28,7 +28,7 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
 
 - Users will see an exclusive offer pop-up each time they refresh the website or click on the shop link.
 
-![Alt text](1.png)
+![Alt text](1.png.cloud)
 
 - Users can browse items by clicking on the categories listed in the navigation bar.
 
