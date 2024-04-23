@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Jewelry-e-commerce-website/static/css/main.6b7a920f.css",
+    "main.css": "/Jewelry-e-commerce-website/static/css/main.36deaa1a.css",
     "main.js": "/Jewelry-e-commerce-website/static/js/main.08b08c78.js",
     "static/js/453.d855a71b.chunk.js": "/Jewelry-e-commerce-website/static/js/453.d855a71b.chunk.js",
     "static/media/video1.mp4": "/Jewelry-e-commerce-website/static/media/video1.550004f90c9f223837e5.mp4",
@@ -46,12 +46,12 @@
     "static/media/product_23.jpg": "/Jewelry-e-commerce-website/static/media/product_23.99af41b29434711edb11.jpg",
     "static/media/america.webp": "/Jewelry-e-commerce-website/static/media/america.ced576e207d234ec2450.webp",
     "index.html": "/Jewelry-e-commerce-website/index.html",
-    "main.6b7a920f.css.map": "/Jewelry-e-commerce-website/static/css/main.6b7a920f.css.map",
+    "main.36deaa1a.css.map": "/Jewelry-e-commerce-website/static/css/main.36deaa1a.css.map",
     "main.08b08c78.js.map": "/Jewelry-e-commerce-website/static/js/main.08b08c78.js.map",
     "453.d855a71b.chunk.js.map": "/Jewelry-e-commerce-website/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7a920f.css",
+    "static/css/main.36deaa1a.css",
     "static/js/main.08b08c78.js"
   ]
 }
