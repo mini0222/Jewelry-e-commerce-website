@@ -18,12 +18,12 @@ const Video = () => {
             setPlayStatus(!playStatus)
         }
     }
-    
+
     return (
         <div className='video'>
             <div className='ad'>
 
-                <video className='background' autoPlay loop muted ref={videoRef} paused={!playStatus}>
+                <video className='background' autoPlay loop muted ref={videoRef} paused={!playStatus} playsInline>
                     <source src={require('../Assets/video1.mp4')} type="video/mp4" />
                 </video>
 

@@ -7,7 +7,7 @@ import p17_img from './product_17.jpg'
 let data_product = [
   {
     id:1,
-    name:"Froral Blue Pearl Pointed earrings",
+    name:"Plum Heart Gold earrings",
     image:p1_img,
     new_price:50.00,
     old_price:80.50,

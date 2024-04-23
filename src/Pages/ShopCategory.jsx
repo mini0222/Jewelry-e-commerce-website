@@ -65,6 +65,7 @@ const ShopCategory = (props) => {
         <p>
           <span>Showing 1-12</span> out of 36 products
         </p>
+        <p className='total-items-count'>36 products</p>
 
         <div ref={dropdownRef} className='sortby'>
 

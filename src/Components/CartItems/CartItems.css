@@ -309,3 +309,32 @@
     }
 }
 
+@media (max-width: 400px) {
+    
+    .cartitems-format {
+        margin-left: -10px;
+        gap: 25px;
+    }
+
+    .empty-cart i {
+        font-size: 160px;
+    }
+
+    .cartitems-format img {
+        width: 130px;
+        height: 180px;
+    }
+
+    .cartitems-promobox {
+        width: 340px;
+    }
+
+    .cartitems-promocode-mobile h1, .cartitems-total-mobile h1{
+        font-size: 29px;
+    }
+
+    .cartitems-total-mobile button {
+        width: 230px;
+    }
+}
+

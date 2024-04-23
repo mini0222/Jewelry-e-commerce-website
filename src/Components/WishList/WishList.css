@@ -77,9 +77,19 @@
 @media(max-width:800px) {
 
     .wishlist-remove-icon {
-        font-size: 20px;
+        font-size: 18px;
         top: 295px;
-        right: 0; 
+        right: 8px; 
+    }
+
+    .item-list li {
+        margin-left: -8px
+    }
+
+    .yourwishlist {
+        margin-left: 13px;
+        margin-bottom: 60px;
+        margin-top: 30px;
     }
 }
 @media(max-width: 500px) {
@@ -87,17 +97,21 @@
     .wishlist-remove-icon {
         font-size: 18px;
         top: 260px;
-        right: 17px; 
+        right: 13px; 
     }
 
     .item-list {
-        margin: -20px;
+        margin-top: -20px;
         grid-template-columns: 1fr 1fr;
         row-gap: 60px;
     }
 
+    .item-list li {
+        margin-left: -5px
+    }
+
     .yourwishlist {
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 60px;
         margin-top: 30px;
         font-size: 27px;
@@ -109,5 +123,30 @@
 
     .empty-wishlist p {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .yourwishlist {
+        margin-left: 5px;
+    }
+    .item-list {
+        margin-left: -28px;
+        column-gap: 15px;
+    }
+
+    .wishlist-remove-icon {
+        font-size: 18px;
+        top: 260px;
+        right: 6px; 
+    }
+
+    .heart-icon {
+        font-size: 145px;
+    }
+
+    .empty-wishlist p {
+        font-size: 16px;
     }
 }

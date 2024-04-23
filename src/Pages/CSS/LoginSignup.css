@@ -220,3 +220,69 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 400px) {
+
+    .loginsignup {
+        width: 270px;
+    }
+
+    .submit-container {
+        margin-left: 10px;
+    }
+    
+    .input {
+        width: 270px;
+        padding: 20px;
+    }
+
+    .loginsignup-container {
+        margin-top: 50px;
+        width: 370px; 
+    }
+
+    .header h1{ 
+        font-size: 40px;
+    }
+
+    .forgot-password {
+        margin-top: 45px;
+        margin-left: -70px;
+    }
+
+    .nameError, .emailError, .passwordError, .errormsg {
+        font-size: 14px;
+    }
+
+    .forgot-password {
+        margin-top: 45px;
+        margin-left: -130px;
+        font-size: 15px;
+    }
+
+    .block {
+        width: 120px;
+    }
+
+    .submit {
+        font-size: 15px;
+    }
+
+    .gray {
+        background: #eaeaea;
+        color: #676767;
+    }
+
+    .input i {
+        font-size: 18px;
+    }
+    
+    .input input {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .nameError, .emailError, .passwordError {
+        top: 70px;
+    }
+}

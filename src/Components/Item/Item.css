@@ -120,3 +120,15 @@
     }
 
 }
+
+@media (max-width:400px) {
+    
+    .item {
+        width: 185px;
+    }
+    
+    .item img {
+        width: 185px;
+        height: 250px;
+    }
+}

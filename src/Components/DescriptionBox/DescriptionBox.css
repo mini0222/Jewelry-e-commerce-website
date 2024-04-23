@@ -34,3 +34,10 @@
     padding: 48px;
     background: ivory;
 }
+
+@media (max-width: 400px) {
+    
+    .descriptionbox-description {
+        font-size: 15px;
+    }
+}

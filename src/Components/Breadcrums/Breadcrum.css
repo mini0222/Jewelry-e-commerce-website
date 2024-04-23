@@ -3,3 +3,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 400px) {
+    .breadcrum {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+}

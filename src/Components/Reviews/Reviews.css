@@ -1,5 +1,4 @@
 .customer-reviews {
-    width: 100%;
     height: 435px;
     margin: 50px 0px;
     background:  pink;
@@ -132,24 +131,52 @@
 }
 
 @media (max-width: 800px) {
-    
+
     .c-review {
-        width: 1000px;
+        max-width: 800px;
     }
 
     .reviews {
-        gap: 150px;  
+        gap: 213px;  
     }
 }
 
 @media (max-width: 500px) {
 
+    .c-review {
+        max-width: 500px;
+    }
+
     .reviews {
-        gap: 453px;  
+        gap: 510px;  
     }
 
     .c-arrow i{
         display: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .c-review {
+        max-width: 400px;
+    }
+    
+    .reviews {
+        gap: 630px;  
+    }
+
+    .c-arrow i{
+        display: none;
+    }
+
+    .customer-reviews {
+        height: 460px;
+    }
+
+    .title-arrow p {
+        font-size: 25px;
     }
 
 }
