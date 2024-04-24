@@ -28,7 +28,7 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
 
 - Users will see an exclusive offer pop-up each time they refresh the website or click on the shop link.
 
-![Alt text](1.png.cloud)
+![Alt text](1.png)
 
 - Users can browse items by clicking on the categories listed in the navigation bar.
 
@@ -56,6 +56,17 @@ https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/19f2ddf1
 
 ![Alt text](8.png)
 ![Alt text](9.png)
+
+## Responsive Design Breakpoint
+
+- 1280px
+  
+At 1280px, the website layout is optimized for larger desktop screens.
+Navigation manus and content sections are arranged for maximum visibility and ease of access.
+
+![Alt text](1280px.png)
+
+-1024px
 
   
 
