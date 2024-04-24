@@ -7,8 +7,8 @@ Mini Gold is a jewelry e-commerce website where you can order all the dainty and
 ## Table of Contents
 - [Installation](#installation)
 - [Features](#Features)
-- [Responsive Design Breakpoint](#ResponsiveDesignBreakpoint)
-- [Responsive Navigation and Search](#ResponsiveNavigationandSearch)
+- [Responsive Design Breakpoint](#Responsive-Design-Breakpoint)
+- [Responsive Navigation and Search](#Responsive-Navigation-and-Search)
 
 ## Installation
 1. Clone the repository:
@@ -60,7 +60,7 @@ https://github.com/mini0222/Jewelry-e-commerce-website/assets/142453034/19f2ddf1
 ![Alt text](9.png)
 
 
-## Responsive Design Breakpoint
+## Responsive-Design-Breakpoint
 
 - 1280px
   
@@ -97,7 +97,7 @@ Content is prioritized, and the layout is simplified to accommodate smaller scre
 
 -![Alt text](400px.png)
 
-## Responsive Navigation and Search
+## Responsive-Navigation-and-Search
 
 - 800px ~ 400px
 
